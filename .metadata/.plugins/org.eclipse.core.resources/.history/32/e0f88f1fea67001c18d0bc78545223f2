@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class TiposPrimitivosExercicio {
+	public static void main(String[] args) {
+		// Informações do funcionario
+		
+		// Tipos numérico inteiro
+		byte anosDeEmpresa = 23;
+		short numeroDeVoos = 542;
+		int id = 56789;
+		// para definir um long que ultrapassa o tamanho do inteiro você precisa coloca a letra L no final do mumero
+		long pontosAcumulados = 3234845223L;
+	}
+}

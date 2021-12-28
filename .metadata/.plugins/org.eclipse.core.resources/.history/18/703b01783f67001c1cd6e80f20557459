@@ -1,0 +1,9 @@
+package fundamentos;
+
+public class FirstStep {
+	public static void main(String[] args) {
+		 // Orienta a instrução de impressão de uma frase no console
+		System.out.println("Aqui está o seu primeiro passo!!, Bem vindo Programador"); 
+	}
+
+}

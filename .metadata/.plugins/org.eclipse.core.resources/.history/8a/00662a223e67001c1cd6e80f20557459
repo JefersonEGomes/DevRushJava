@@ -1,0 +1,8 @@
+package fundamentos;
+
+public class FirstStep {
+	public static void main(String[] args) {
+		System.out.println("Aqui está o seu primeiro passo!!, Bem vindo Programador"); 
+	}
+
+}

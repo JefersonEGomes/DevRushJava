@@ -1,0 +1,17 @@
+package fundamentos;
+
+public class ConsoleExercicios {
+	public static void main(String[] args) {
+		System.out.print("Bom");
+		System.out.print(" dia!\n");
+		
+		System.out.println("Bom");
+		System.out.println( "dia!!!");
+		
+		System.out.printf("Números da Megasena: %d %d %d %d %d %d %n", 45,32,14,7,8,27);
+		System.out.printf("Prêmio Total: R$%.1f%n", 168452.325 );
+		System.out.printf("Ganhador: %s", "Henrrique Soares");
+		
+		
+	}
+}

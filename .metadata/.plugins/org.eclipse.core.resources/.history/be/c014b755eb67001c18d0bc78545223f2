@@ -1,0 +1,38 @@
+package fundamentos;
+
+public class TiposPrimitivosExercicio {
+	public static void main(String[] args) {
+		// Informações do funcionario
+		
+		// Tipos numérico inteiro
+		byte anosDeEmpresa = 23;
+		short numeroDeVoos = 542;
+		int id = 56789;
+		// para definir um long que ultrapassa o tamanho do inteiro você precisa coloca a letra L no final do mumero
+		long pontosAcumulados = 3234845223L;
+		
+		// Tipos numéricos reais
+		// Mesma lógica do long
+		float salario = 11445.44F;
+		double vendasAcumuladas = 2991797103.01;
+		
+		//Tipo booleano
+		boolean estaDeFerias = false; //true
+		
+		// Tipo caractere
+		char status = '?'; // Aceita um unico caractere
+		
+		// Dias de empresa
+		System.out.println("Dias Trabalhados:" + anosDeEmpresa * 365 +" dias");
+		
+		// Número de viagens 
+		System.out.println("Número de viagens feitas: " + numeroDeVoos / 2 +" viagens");
+		
+		// Pontos por real
+		System.out.println("Pontos por real: "+pontosAcumulados / vendasAcumuladas +" pontos");
+		
+		System.out.println(id + ": ganha -> R$" + salario);
+		System.out.println("Férias ?" + estaDeFerias);
+		
+	}
+}
