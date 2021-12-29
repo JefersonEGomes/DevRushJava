@@ -1,0 +1,26 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+/*
+ Desafio 
+ Criar 3 sacaneers
+ Passar 3 Strings
+ Calcualr a media entre essas strings
+ 
+  OBS.: o funcionario pode digitar , ou . 
+  
+  objetivo somar os 3 salarios , dividir por 3 e exibir a média
+  
+  
+ */ 
+public class DesafioConversao {
+	public static void main(String[] args) {
+		Scanner s1 = new Scanner(System.in);
+		
+		s1.close();
+		
+		
+		
+	}
+}

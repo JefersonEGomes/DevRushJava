@@ -1,0 +1,37 @@
+package operadores;
+
+public class DesafioLogicos {
+
+	public static void main(String[] args) {
+		// Trabalho na terça(V ou F)
+		// Trabalho na quinta (V ou F)
+		// Se os dois trabalhos derem certo , compra televisão de 50
+		// Se só um trabalho der certo , compra tv de 32
+		// Se exclusicavamente alguma das duas televisões forem adiquiridas , a familia toma sorvete
+		// se nhuma condição for atendida explicar a logica negativa
+		
+		boolean JobTerça = false;
+		boolean JobQuinta = false;
+		
+		if(JobTerça == true && JobQuinta == true) {
+			System.out.println("Conseguimos concluir os dois serviços");
+			System.out.println("Portanto iremos ao shopping");
+			System.out.println("Vamos comprar uma televisão de 50 polegadas");
+			System.out.println("E vamos tomar soverte :)");
+		}
+		
+		if(JobTerça == true && JobQuinta == false || JobTerça == false && JobQuinta == true ) {
+			System.out.println("Conseguimos concluir apenas um serviço");
+			System.out.println("Portanto iremos ao shopping");
+			System.out.println("Vamos comprar uma televisão de 32 polegadas");
+			System.out.println("E vamos tomar soverte :)");
+		}
+		 if(JobTerça == false && JobQuinta == false){
+			System.out.println("Não concluios nenhum serviço");
+			System.out.println("Portanto não iremos ao shopping");
+			System.out.println("Não compraremos uma televisão");
+			System.out.println("E não vamos tomar soverte :(");
+		}
+		 
+	}
+}

@@ -1,0 +1,46 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+/*
+ Desafio 
+ Criar 3 sacaneers V
+ Passar 3 Strings V
+ Calcualar a media entre essas strings
+ 
+  OBS.: o funcionario pode digitar , ou . 
+  
+  objetivo somar os 3 salarios , dividir por 3 e exibir a média
+  
+  
+ */
+public class DesafioConversao {
+	public static void main(String[] args) {
+		Scanner s1 = new Scanner(System.in);
+		System.out.println("Digite aqui seu primeiro salário");
+		String valor1 = s1.nextLine();
+
+		System.out.println("Digite aqui seu segundoo salário");
+		String valor2 = s1.nextLine();
+
+		System.out.println("Digite aqui seu terceiro salário");
+		String valor3 = s1.nextLine();
+
+		s1.close();
+		if (valor1.contains(",") || valor2.contains(",") || valor3.contains(",")) {
+			valor1 = valor1.replace(",", ".");
+			valor2 = valor2.replace(",", ".");
+			valor3 = valor3.replace(",", ".");
+
+		};
+		double convert1 = Double.parseDouble(valor1);
+		double convert2 = Double.parseDouble(valor2);
+		double convert3 = Double.parseDouble(valor3);
+		double soma = convert1 + convert2 + convert3;
+		double media = soma / 3;
+
+		System.out.println("Aqui está a soma do seu salário: " + soma);
+		System.out.println("Aqui está a média do seu salário em 3 meses: " + media);
+
+	}
+}

@@ -1,0 +1,16 @@
+package operadores;
+
+public class LogicoExercicios {
+	public static void main(String[] args) {
+		
+		boolean condicao1 = true;
+		oolean condicao2 = 3>7;
+		
+		System.out.println("Tabela verdade E");
+		System.out.println(condicao1 && !condicao2);
+		System.out.println(condicao1 || condicao2);
+		System.out.println(condicao1 ^ condicao2);
+		System.out.println(!!condicao2);
+		
+	}
+}

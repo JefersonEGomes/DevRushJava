@@ -1,0 +1,10 @@
+package fundamentos;
+
+public class ConversaoNumeroStringExercicio {
+	public static void main(String[] args) {
+		int num2 = 10000;
+		
+		//Modo gambiarra
+		System.out.println(("" + num2).length());
+	}
+}

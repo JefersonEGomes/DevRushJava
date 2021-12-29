@@ -1,0 +1,25 @@
+package fundamentos;
+
+public class DesafioAritmeticos {
+	public static void main(String[] args) {
+//		int a = 2 + 3 * 4;
+//		int b = (int) Math.pow(a, 3);
+		
+		int part1 = (6*(3+2));
+		int part1Elev = (int) Math.pow(part1, 2)/(3*2);
+		System.out.println(part1);
+		System.out.println(part1Elev);
+		
+		int part2 = ((5-1) * (7-2));
+		int part2Elev = (int) Math.pow(part2, 2)/2;
+		System.out.println(part2);
+		System.out.println(part2Elev);
+		
+		int part3 = Math.abs(part1Elev - part2Elev); // valor absoluto , retira o sinal
+		int part3Div = (int) Math.pow(10, 3);
+		int part3Elev = (int) Math.pow(part3, 3)/part3Div;
+		
+		System.out.println(part3Elev);
+	}
+
+}
