@@ -1,0 +1,21 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DoWhile {
+	public static void main(String[] args) {
+		
+		// if(...) setença ou {}
+		// while(...) setença; ou {}
+		// for(..;...;...) setença ; ou {}
+		// do {} while(...);
+		
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		do {
+			System.out.println("a");
+		} while (false);
+		leitor.close();
+	}
+}

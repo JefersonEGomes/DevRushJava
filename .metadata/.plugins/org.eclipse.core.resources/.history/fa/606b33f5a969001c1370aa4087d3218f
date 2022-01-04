@@ -1,0 +1,21 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class QuadradoCuboValor {
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner(System.in);
+		
+		System.out.println("Digite um valor que deseja ser calculado");
+		double valor = leitor.nextDouble();
+		
+		double quadrado = Math.pow(valor, 2);
+		
+		double cubo = Math.pow(valor, 3);
+		
+		System.out.printf("Aqui está o seu valor ao quadrado %f \n e o seu valor ao cubo %f");
+		
+				
+		leitor.close();
+	}
+}

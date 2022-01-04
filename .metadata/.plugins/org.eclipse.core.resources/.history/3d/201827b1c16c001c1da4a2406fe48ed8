@@ -1,0 +1,42 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	public static void main(String[] args) {
+		
+		/*
+		  			To/DO
+		 1 - Criar scanner V
+		 2 - Criar Variaveis do programa
+		 3 - Criar while para verificar a nota e adicionar valor as variaveis
+		 4 - registar a soma das notas digitadas
+		 5 - registrar quantas notas foram digitas
+		 6 - calular a média
+		 7 - sair do programa se o usuario digitar -1
+		  
+		 */
+		
+		Scanner leitor = new Scanner(System.in);
+		double nota = 0;
+		double count = 0;
+		double media = nota/count;
+		
+		while(nota != -1) {
+			System.out.println("Por favor digite uma nota válida abaixo: ");
+			nota = leitor.nextInt();
+			count++;
+			System.out.println(media);
+			
+			if(nota < -1 ) {
+				System.out.println("Favor digitar uma nota válida");
+			}
+			
+		}
+		
+		System.out.println(media);
+		
+		leitor.close();
+		
+	}
+}

@@ -1,0 +1,22 @@
+package controle;
+
+import java.util.Scanner;
+
+public class While2 {
+	public static void main(String[] args) {
+		
+		Scanner leitor = new Scanner(System.in);
+		System.out.println("Digite algo abaixo, para sair, digite sair");
+		String input = leitor.next();
+		
+		while(!input.equalsIgnoreCase("sair")) {
+			System.out.println(input);
+			System.out.println("Digite algo abaixo, para sair, digite sair");
+			input = leitor.next();
+			
+		}
+		
+		
+		leitor.close();
+	}
+}

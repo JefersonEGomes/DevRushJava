@@ -1,0 +1,11 @@
+package controle;
+
+/* Desafio  digitar uma String referente a um dia da semana e
+ retornar um inteiro referente ao dia em uma sequência de 1 a 7
+ */
+public class DesafioDiaDaSemana {
+	
+	public static void main(String[] args) {
+		
+	}
+}

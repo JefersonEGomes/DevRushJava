@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		/*
+		 * To / Do Desafio Calculadora
+		 Ler o primeiro numero
+		 Ler o segundo numero
+		 Escolher a operação
+		 E realizar a operação
+		 Sem usar IF/ELSE
+		 */
+		
+		
+		
+		
+	}
+}

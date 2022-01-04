@@ -1,0 +1,59 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class DesafioCalculadora {
+	public static void main(String[] args) {
+		/*
+		 * To / Do Desafio Calculadora
+		 Ler o primeiro numero V
+		 Ler o segundo numero V
+		 Escolher a operação  V
+		 E realizar a operação
+		 Sem usar IF/ELSE - operador tenário
+		 */
+		
+		Scanner leitor = new Scanner(System.in);
+		System.out.println("Bem vindo a calculadora :)");
+		System.out.println("Digite a seguir os números que você deseja calcular e sua respectiva operação:  ");
+		System.out.println("Digite aqui o primeiro número: ");
+		double num1 = leitor.nextDouble();
+		
+		System.out.println("Digite o segundo número: ");
+		double num2 = leitor.nextDouble();
+		
+		System.out.printf("\n");
+		System.out.printf("-----------------------------------------");
+		System.out.printf("\n");
+		
+		
+		System.out.printf("\n");
+		System.out.printf("Para realizar as operações Digite: \n + para soma \n - para subtração \n * para multiplicação \n / para divisão\n");
+		System.out.println("Ótimo agora selecionae a operação que você desaja realizar:");
+		String operacao = leitor.next();
+		
+		var soma = operacao.equals("+") ? (double)num1 + (double) num2 : "Não é uma soma" ;
+		var subtracao = operacao.equals("-") ? (double)num1 - (double) num2 : "Não é uma subtração" ;
+		var multiplicacao = operacao.equals("*") ? (double)num1 * (double) num2 : "Não é uma multiplicação" ;
+		var divisao = operacao.equals("/") ? (double)num1 / (double) num2 : "Não é uma divisão" ;
+		
+		System.out.println(soma);
+		System.out.println("");
+		System.out.println(subtracao);
+		System.out.println("");
+		System.out.println(multiplicacao);
+		System.out.println("");
+		System.out.println(divisao);
+		System.out.println("");
+
+		
+		
+		
+		
+		
+		leitor.close();
+		
+		
+		
+	}
+}

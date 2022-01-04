@@ -1,0 +1,19 @@
+package fundamentos;
+
+public class EquacaoSegundoGrau {
+	public static void main(String[] args) {
+		double a = 1;
+		double b = 12;
+		double c = -13;
+		
+		double delta = Math.pow(b, 2) - 4*a*c;
+		double x = -b + Math.sqrt(delta) / 2*a;
+		double x2 = Math.pow(x, 2);
+		double bhaskara = a*x2 + b*x + c;
+		
+		System.out.println(bhaskara);
+		
+		
+
+	}
+}

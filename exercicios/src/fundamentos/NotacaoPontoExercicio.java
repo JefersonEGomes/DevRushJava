@@ -19,6 +19,7 @@ public class NotacaoPontoExercicio {
 		
 		// Tipos primitivos não tem o operador "."
 		int a =3;
+		System.out.println(a);
 		
 	}
 }

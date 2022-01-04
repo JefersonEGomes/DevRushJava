@@ -1,0 +1,25 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	public static void main(String[] args) {
+		
+		/*
+		  			To/DO
+		 1 - Criar scanner V
+		 2 - Criar whi,e para verificar a nota e adicionar valor as variaveis
+		 3 - registar a soma das notas digitadas
+		 4 - registrar quantas notas foram digitas
+		 5 - calular a média
+		 6 - sair do programa se o usuario digitar -1
+		  
+		 */
+		
+		Scanner leitor = new Scanner(System.in);
+		
+		
+		leitor.close();
+		
+	}
+}
