@@ -1,0 +1,25 @@
+package controle;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+	public static void main(String[] args) {
+		
+				
+		Scanner leitor = new Scanner(System.in);
+
+		int num = leitor.nextInt();
+		
+		while(num %1 == 0 && num %num == 0) {
+			if(num %1 != 0 ^ num %num != 0) {
+				System.out.println("a");
+			}else {
+				System.out.println("b");
+			}
+		}
+		
+		
+		
+		leitor.close();
+	}
+}

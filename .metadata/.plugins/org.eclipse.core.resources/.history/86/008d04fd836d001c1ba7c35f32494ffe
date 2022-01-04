@@ -1,0 +1,27 @@
+package controle;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+	public static void main(String[] args) {
+
+		Scanner leitor = new Scanner(System.in);
+		int i = 0;
+		int divisor = 0;
+		int num = leitor.nextInt();
+
+		for (i = 2; i <= num / 2; i++) {
+			if (num % i == 0) {
+				divisor++;
+				break;
+			}
+		}
+		if (divisor == 0)
+			System.out.printf("a");
+		else
+			System.out.println("b");
+
+		leitor.close();
+	}
+
+}

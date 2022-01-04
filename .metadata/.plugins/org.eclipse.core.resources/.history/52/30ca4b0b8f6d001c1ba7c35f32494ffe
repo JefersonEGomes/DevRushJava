@@ -1,0 +1,24 @@
+package controle;
+
+import java.util.Scanner;
+
+public class Exercicio3 {
+	/*Criar um programa,a para verificar as notas e seus conceitos*/
+	public static void main(String[] args) {
+		Scanner  leitor = new Scanner(System.in);
+		double nota1 = leitor.nextInt();
+		double nota2 = leitor.nextInt();
+		double media = (nota1 + nota2) / 2;
+		
+		if(media >= 7.0) {
+			System.out.printf("Sua média é %.2f e você está Aprovado",media);
+		}else if(media >= 4.0 && media < 7.0 ) {
+			System.out.printf("Sua média é %.2f e você está Recuperação",media);
+		}else {
+			System.out.printf("Sua média é %.2f e você está Reprovado",media);
+		}
+		
+		
+		leitor.close();
+	}
+}
