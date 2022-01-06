@@ -1,0 +1,25 @@
+package controle;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exercicio5 {
+	public static void main(String[] args) {
+		Scanner leitor = new Scanner(System.in).useLocale(Locale.US);
+		int divisor = 0;
+		
+		
+		System.out.println("Digite o numero que deseja verificar: ");
+		int num = leitor.nextInt();
+		
+		int numVerificaDividir = num %2 ;
+		
+		switch(num) {
+		case :
+		}
+		
+		
+		
+		leitor.close();
+	}
+}

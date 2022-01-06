@@ -1,0 +1,10 @@
+package controle;
+
+public class exercicio7 {
+	public static void main(String[] args) {
+		/*
+		Criar um programa que receba numeros positivos e imprima a soma , caso receba negativo encerra o programa
+		 */
+
+	}
+}

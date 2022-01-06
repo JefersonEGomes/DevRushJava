@@ -1,0 +1,7 @@
+package classe;
+
+public class Data {
+	/*
+	Criar 3 atributos , dia mês e ano
+	*/
+}

@@ -1,0 +1,13 @@
+package classe;
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		
+		Produto produto1 = new Produto();
+		produto1.nome = "Teclado Mêcanico";
+		produto1.preco = 452.96;
+		produto1.desconto = 0.3;
+		
+		var produto2 = new Produto();
+	}
+}

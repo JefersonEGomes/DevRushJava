@@ -1,0 +1,19 @@
+package classe;
+
+import java.io.PrintStream;
+
+public class Data {
+	/*
+	Criar 3 atributos , dia mês e ano
+	*/
+	
+	int dia;
+	int mes;
+	int ano;
+	
+	PrintStream dataFormatada(String messagem){
+		
+		return System.out.printf(messagem + "%d/%d/%d \n", dia, mes, ano);
+	}
+	
+}

@@ -1,8 +1,0 @@
-package fundamentos;
-
-public class ConsoleExercicios {
-	public static void main(String[] args) {
-		System.out.print("Bom");
-		System.out.print(" dia!");
-	}
-}

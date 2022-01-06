@@ -1,0 +1,32 @@
+package classe;
+
+import java.io.PrintStream;
+
+public class Data {
+	/*
+	Criar 3 atributos , dia mês e ano
+	*/
+	
+	int dia;
+	int mes;
+	int ano;
+	
+	String dataFormatada() {
+		
+		return "Hoje é: "+dia+"/"+mes+"/"+ano ;
+	}
+	
+	
+	
+	
+//	PrintStream dataFormatada(){
+//		
+//		return System.out.printf("Hoje é: %d/%d/%d \n", dia, mes, ano);
+//	}
+//	
+//	PrintStream dataFormatada(String messagem){
+//		
+//		return System.out.printf(messagem + " %d/%d/%d \n", dia, mes, ano);
+//	}
+	
+}

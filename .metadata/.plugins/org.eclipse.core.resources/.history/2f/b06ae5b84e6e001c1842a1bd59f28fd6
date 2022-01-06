@@ -1,0 +1,19 @@
+package classe;
+
+public class DataTeste {
+	/*
+	Instanciar duas datas
+	*/
+	
+	public static void main(String[] args) {
+		Data dia1 = new Data();
+		dia1.dia = 10;
+		dia1.mes = 8;
+		dia1.ano = 2001; 
+		
+		Data dia2 = new Data();
+		dia2.dia = 22;
+		dia2.mes = 11;
+		dia2.ano = 2003;
+	}
+}
